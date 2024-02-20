@@ -2,7 +2,7 @@ package upce.nnpia_cv_2.controller;
 
 import org.springframework.web.bind.annotation.*;
 
-@RequestMapping("/api/v1/")
+//@RequestMapping("/api/v1/")
 @RestController
 public class HelloController {
     @GetMapping("")
