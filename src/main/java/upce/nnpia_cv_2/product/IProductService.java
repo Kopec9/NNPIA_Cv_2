@@ -1,8 +1,8 @@
 package upce.nnpia_cv_2.product;
 
-import java.util.List;
+import java.util.Collection;
 
 public interface IProductService {
-    List<Product> getAllProducts();
+    Collection<Product> getAllProducts();
     Product getProductById(int productId);
 }
