@@ -40,7 +40,41 @@ public class HelloController {
 
     /*
     Rozdíl mezi YAML, JSON a XML syntaxí?
+        YAML:
+            Data se značí odsazením.
+            Příklad:
+                person:
+                  name: John Doe
+                  age: 30
+                  address:
+                    city: New York
+                    zip: '10001'
 
+        XML:
+            Data jsou uzavřena do tagů.
+            Příklad:
+                <person>
+                  <name>John Doe</name>
+                  <age>30</age>
+                  <address>
+                    <city>New York</city>
+                    <zip>10001</zip>
+                  </address>
+                </person>
+
+        JSON:
+        Data jsou uzavřena v závorkách. Používají se složené závorky {} pro objekty a hranaté závorky [] pro pole.
+        Příklad:
+        {
+          "person": {
+            "name": "John Doe",
+            "age": 30,
+            "address": {
+              "city": "New York",
+              "zip": "10001"
+            }
+          }
+        }
 
      */
 
